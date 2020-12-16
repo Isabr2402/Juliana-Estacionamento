@@ -1,0 +1,35 @@
+{
+	"Connection" : {
+		"Headers" : {
+			"Content-type" : "application/json; charset=UTF-8",
+			"Access-Control-Allow-Origin" : "http://localhost/",
+			"Access-Control-Allow-Methods" : "GET, PUT, POST, DELETE"
+		}
+	},
+	"Database" : {
+		"host" : "localhost",
+		"port" : "3306",
+		"dbname" : "juliana",
+		"user" : "root",
+		"password" : ""
+	},
+	"Class" : [
+		{
+			"name" : "automoveis",
+			"attributes" : [
+				"id",
+				"placa"
+			]
+		},
+		{
+			"name" : "estacionamento",
+			"attributes" : [
+				"id_auto",
+				"ent",
+				"sai",
+				"custo",
+				"id"
+			]
+		}
+	]
+}
